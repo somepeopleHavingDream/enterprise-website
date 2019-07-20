@@ -71,3 +71,27 @@ body {
     font-size: 16px;
     color: #c00000;
 }
+
+/* .nav {
+    height: 40px;
+}
+
+.nav_left {
+    width: 10px;
+    background: url(../image/nav_left.jpg) no-repeat;
+}
+
+.nav_mid {
+    width: 980px;
+    background: url(../image/nav_mid.jpg) repeat-x;
+}
+
+.nav_right {
+    width: 10px;
+    background: url(../image/nav_right.jpg) no-repeat;
+}
+
+.nav_left, .nav_mid, .nav_right {
+    float: left;
+    height: 40px;
+} */
