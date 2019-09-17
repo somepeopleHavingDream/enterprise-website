@@ -73,7 +73,7 @@ body {
     color: #c00000;
 }
 
-/* .nav {
+.nav {
     height: 40px;
 }
 
@@ -95,4 +95,47 @@ body {
 .nav_left, .nav_mid, .nav_right {
     float: left;
     height: 40px;
-} */
+}
+
+.nav_mid_left, .nav_mid_right {
+    float: left;
+}
+
+.nav_mid_left {
+    width: 680px;
+}
+
+.nav_mid_right {
+    width: 300px;
+}
+
+.nav_mid_left li {
+    float: left;
+    list-style-type: none;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.nav_mid_left a:link, .nav_mid_left a:visited {
+    text-decoration: none;
+    color: #722828;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+
+.nav_mid_left a:hover, .nav_mid_left a:active {
+    text-decoration: none;
+    color: #3d7228;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+
+.search_text {
+    width: 190px;
+    height: 25px;
+    margin-top: 5px;
+    background: url(../image/search.jpg) no-repeat right center;
+    padding-right: 25px;
+    border: 1px solid;
+}
