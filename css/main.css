@@ -46,6 +46,7 @@ body {
 .logo {
     height: 80px;
     background-color: #ffffff;
+    overflow: hidden;
 }
 
 .logo_left {
