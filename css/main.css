@@ -146,3 +146,33 @@ body {
     height: 310px;
     overflow: hidden;
 }
+
+.main {
+    height: 250px;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.news {
+    width: 340px;
+    border: 1px solid #e8e8e8;
+    background-color: #99ffcc;
+}
+
+.course {
+    width: 410px;
+    border: 1px solid #e8e8e8;
+    margin: 0 7px;
+    background-color: #ffff66;
+}
+
+.sidebar {
+    width: 230px;
+    background-color: #0099ff;
+}
+
+.news, .course, .sidebar {
+    height: 250px;
+    float: left;
+}
