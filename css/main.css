@@ -84,7 +84,8 @@ body {
 
 .nav_mid {
     width: 980px;
-    background: url(../image/nav_mid.jpg) repeat-x;
+    background: url(../image/nav_bg.jpg) repeat-x;
+    /* background: url(../image/nav_mid.jpg) repeat-x; */
 }
 
 .nav_right {
@@ -137,5 +138,5 @@ body {
     margin-top: 5px;
     background: url(../image/search.jpg) no-repeat right center;
     padding-right: 25px;
-    border: 1px solid;
+    border: 1px solid #ffffff;
 }
