@@ -205,8 +205,8 @@ body {
 }
 
 .pic_news {
-    height: 80px;
-    margin-top: 10px;
+    height: 85px;
+    margin-top: 5px;
     overflow: hidden;
     line-height: 22px;
 }
@@ -219,4 +219,33 @@ body {
 .pic_news a {
     color: #c00;
     text-decoration: none;
+}
+
+.news_list {
+    margin-top: 20px;
+}
+
+.news_list li {
+    list-style-type: none;
+    background: url(../images/list.jpg) no-repeat;
+    /* margin-left: 10px; */
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #ccc;
+    overflow: hidden;
+}
+
+.news_list a:link, .news_list a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.news_list a:hover, .news_list a:active {
+    text-decoration: none;
+    color: #f00;
+}
+
+.news_list span {
+    color: #999;
+    float: right;
 }
