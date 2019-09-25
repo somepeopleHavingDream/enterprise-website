@@ -163,7 +163,7 @@ body {
     width: 410px;
     border: 1px solid #e8e8e8;
     margin: 0 7px;
-    background-color: #ffff66;
+    /* background-color: #ffff66; */
 }
 
 .sidebar {
@@ -197,6 +197,8 @@ body {
     width: 20%;
     float: right;
     line-height: 35px;
+    text-align: right;
+    padding-right: 10px;
 }
 
 .title_right a {
@@ -211,12 +213,12 @@ body {
     line-height: 22px;
 }
 
-.pic_news img {
+.pic_news img, .course_pic img {
     float: left;
     margin: 0 5px;
 }
 
-.pic_news a {
+.pic_news a, .course_pic a {
     color: #c00;
     text-decoration: none;
 }
@@ -248,4 +250,25 @@ body {
 .news_list span {
     color: #999;
     float: right;
+}
+
+.course_pic {
+    height: 120px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.course_type {
+    height: 37px;
+    width: 372px;
+    background: url(../images/product_type_bg.jpg) no-repeat;
+    margin: 20px auto;
+}
+
+.course_type li {
+    list-style-type: none;
+    float: left;
+    line-height: 37px;
+    margin: 0 15px;
+    text-align: center;
 }
