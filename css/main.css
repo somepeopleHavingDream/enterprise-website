@@ -331,8 +331,43 @@ body {
     width: 220px;
     height: 350px;
     border: 1px solid #e8e8e8;
-    background-color: #9fc;
+    /* background-color: #9fc; */
     float: left;
+}
+
+.news_type h2 {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #666666;
+    background: url(../images/titile_bg.gif) repeat-x;
+    padding-left: 20px;
+}
+
+.new_type_contents {
+    height: 365px;
+    background: url(../images/content_bg.gif) repeat-x;
+}
+
+.new_type_contents li {
+    list-style-type: none;
+    height: 30px;
+    line-height: 30px;
+}
+
+.new_type_contents li a {
+    color: #666666;
+    text-decoration: none;
+    background: url(../images/li_bg.gif) no-repeat left center;
+    padding-left: 15px;
+    display: block;
+}
+
+.new_type_contents li a:hover {
+    color: #009CDF;
+    background: url(../images/li_bg2.gif) no-repeat left center;
+    background-color: #f2f2f2;
 }
 
 .list_box {
