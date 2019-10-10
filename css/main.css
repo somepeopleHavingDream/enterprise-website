@@ -318,3 +318,28 @@ body {
 .copyright_content li ul li a {
     font-size: 14px;
 }
+
+.list_main {
+    min-height: 350px;
+    _height: 350px;
+    background-color: #FFF;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.news_type {
+    width: 220px;
+    height: 350px;
+    border: 1px solid #e8e8e8;
+    background-color: #9fc;
+    float: left;
+}
+
+.list_box {
+    width: 770px;
+    min-height: 350px;
+    _height: 350px;
+    background-color: #ff99ff;
+    border: 1px solid #e8e8e8;
+    float: right;
+}
