@@ -374,9 +374,16 @@ body {
     width: 770px;
     min-height: 350px;
     _height: 350px;
-    /* background-color: #ff99ff; */
+    background-color: #ffffff;
     border: 1px solid #e8e8e8;
     float: right;
+}
+
+.list_box h1 {
+    font-family: "微软雅黑";
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
 }
 
 .list_box h2 {
@@ -410,4 +417,17 @@ body {
 .page a:hover, .page a:active {
     color: #ffffff;
     background-color: #cc1b1b;
+}
+
+.list_box_newsInfo {
+    color: #666666;
+    text-align: center;
+    border-bottom: 1px dotted #666666;
+}
+
+.list_box_newsContent {
+    font-size: 14px;
+    padding: 20px;
+    line-height: 25px;
+    text-indent: 2em;
 }
