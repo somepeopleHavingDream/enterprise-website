@@ -374,7 +374,17 @@ body {
     width: 770px;
     min-height: 350px;
     _height: 350px;
-    background-color: #ff99ff;
+    /* background-color: #ff99ff; */
     border: 1px solid #e8e8e8;
     float: right;
+}
+
+.list_box h2 {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #666666;
+    height: 35px;
+    line-height: 35px;
+    background: url(../images/type_bg.png) repeat-x;
+    padding-left: 20px;
 }
